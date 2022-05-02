@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper .logo {
+  margin-top: 1%;
+}
+
+.wrapper header {
+  font-size: 1.3em;
+}
+
+.wrapper header h1 {
+  text-align: center;
+  color: #969696;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-top: 3%;
+}
+
+.wrapper header span {
+  color: #151f29;
+  font-weight: 700;
+}
+
+.wrapper > p:first-of-type {
+  color: #151f29;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 1.5% 0;
+}
+
+.wrapper .sign_up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60%;
+}
+
+.wrapper .sign_up input {
+  border: 1px solid #c2d3ff;
+  border-radius: 30px;
+  width: 60%;
+  padding: 1.5vh;
+}
+
+.wrapper .sign_up ::-webkit-input-placeholder {
+  color: #c2d3ff;
+}
+
+.wrapper .sign_up :-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.wrapper .sign_up ::-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.wrapper .sign_up ::placeholder {
+  color: #c2d3ff;
+}
+
+.wrapper .sign_up .button {
+  -webkit-box-shadow: 0px 5px 10px #c2d3ff;
+          box-shadow: 0px 5px 10px #c2d3ff;
+  border-radius: 30px;
+  background-color: #4f7df3;
+  text-align: center;
+  padding: 1.5vh;
+  margin-left: 2%;
+  color: white;
+  width: 20%;
+  -webkit-transition: ease 0.2s;
+  transition: ease 0.2s;
+}
+
+.wrapper .sign_up .button:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+  cursor: pointer;
+}
+
+.wrapper .sign_up .feedback {
+  color: #ff5263;
+  font-style: italic;
+  position: absolute;
+  z-index: -1;
+  left: 7.5%;
+  bottom: -55%;
+}
+
+.wrapper .illustration img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  margin: 3% auto;
+}
+
+.wrapper .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10%;
+  margin-bottom: 0.5%;
+}
+
+.wrapper .socials ion-icon {
+  border-radius: 50%;
+  border: 0.5px solid #c2d3ff;
+  padding: 6%;
+  fill: #4f7df3;
+  -webkit-transition: ease 0.2s;
+  transition: ease 0.2s;
+}
+
+.wrapper .socials ion-icon:hover {
+  fill: white;
+  background-color: #4f7df3;
+  cursor: pointer;
+}
+
+.wrapper p:last-of-type {
+  color: #969696;
+  font-weight: 300;
+  margin-bottom: 1%;
+}
+
+.wrapper footer {
+  position: absolute;
+  margin: 0;
+  bottom: 1%;
+  right: 1%;
+}
+
+.wrapper .black::-webkit-input-placeholder {
+  color: #151f29;
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .wrapper .logo {
+    margin-bottom: auto;
+  }
+  .wrapper header {
+    font-size: 0.7em;
+    width: 80%;
+  }
+  .wrapper > p:first-of-type {
+    font-size: 1em;
+    margin: auto;
+  }
+  .wrapper .sign_up {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .sign_up input {
+    width: 100%;
+  }
+  .wrapper .sign_up .button {
+    margin-top: 20%;
+    width: 100%;
+  }
+  .wrapper .sign_up .feedback {
+    text-align: center;
+    width: 90vw;
+    top: 35%;
+    left: -25%;
+  }
+  .wrapper .illustration img {
+    margin-top: 10%;
+    width: 80%;
+  }
+  .wrapper .socials {
+    margin-top: auto;
+    width: 40%;
+  }
+  .wrapper footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
